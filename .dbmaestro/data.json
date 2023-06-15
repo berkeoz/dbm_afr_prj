@@ -67,6 +67,32 @@
         }
       ],
       "DatabasesStaticDataObjects": null
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "5e3be4d5-4a74-4204-9a6b-abe75952b343",
+        "ProjectName": "AFR_SH",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "berkeoz",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null
     }
   ],
   "GlobalConfigurations": null
