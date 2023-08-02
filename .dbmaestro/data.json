@@ -158,19 +158,7 @@
             "EnvironmentId": "b09625cb-399a-4532-896f-2a3358627776",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "57ef51f2-ea7d-4180-a09c-6bb4978e8a50",
-                "DatabaseAliasName": "MaestroEval DB",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/simon-geuthner/DBMaestroEval.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -188,18 +176,7 @@
       "UserData": [
         {
           "UserName": "berkeoz",
-          "DatabasesData": [
-            {
-              "DatabaseId": "57ef51f2-ea7d-4180-a09c-6bb4978e8a50",
-              "DatabaseAliasName": "MaestroEval DB",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": null,
-              "RepositoryCredentials": {
-                "UserName": "MarcAbb73",
-                "Password": "zAyZJiPQpWPpFcqCkj9cag=="
-              }
-            }
-          ]
+          "DatabasesData": []
         },
         {
           "UserName": "#ALL",
