@@ -147,64 +147,6 @@
         }
       ],
       "DatabasesStaticDataObjects": null
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "cad6d360-1c00-426a-a993-883ab9fa8b03",
-        "ProjectName": "BBEDx",
-        "DBTypeName": "Oracle",
-        "Environments": [
-          {
-            "EnvironmentId": "b09625cb-399a-4532-896f-2a3358627776",
-            "EnvironmentName": "Dev_Env_1",
-            "EnvironmentType": "DEV",
-            "Databases": []
-          }
-        ],
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "PreventCommitObjectWithConflict": false,
-          "UseCache": null
-        },
-        "ProjectArchitecture": 1,
-        "LocalDirectory": ""
-      },
-      "UserData": [
-        {
-          "UserName": "berkeoz",
-          "DatabasesData": []
-        },
-        {
-          "UserName": "#ALL",
-          "DatabasesData": [
-            {
-              "DatabaseId": "57ef51f2-ea7d-4180-a09c-6bb4978e8a50",
-              "DatabaseAliasName": "MaestroEval DB",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": [
-                {
-                  "BranchName": "main",
-                  "DatabaseConnectionDetails": {
-                    "DBTypeName": "Oracle",
-                    "host": "localhost",
-                    "port": "1522",
-                    "identifierType": "SERVICE_NAME",
-                    "identifier": "orclpdb5",
-                    "userName": "ADM_CLINICAL",
-                    "Password": "3ucnQ5oZ2hgfTmTSprTn6Q=="
-                  }
-                }
-              ],
-              "RepositoryCredentials": null
-            }
-          ]
-        }
-      ],
-      "DatabasesStaticDataObjects": null
     }
   ],
   "GlobalConfigurations": null
