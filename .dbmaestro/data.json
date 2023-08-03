@@ -227,7 +227,20 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "DatabaseId": "8df32ac8-4152-4a52-ae9f-bb386d2278fa",
+          "DatabaseAliasName": "DEV-Repo",
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "CCR_APAR_PK",
+              "schema": "",
+              "name": "CCR_APPL_PARAMS",
+              "type": "TABLE"
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
