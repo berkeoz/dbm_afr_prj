@@ -153,7 +153,26 @@
         "ProjectId": "0bd392c8-d927-4c9b-b877-fff3634dbc90",
         "ProjectName": "DEV-RS - ADM_CLINICAL [Afrocentric]",
         "DBTypeName": "Oracle",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "b6dcba20-aeae-4078-8468-ad589b698a61",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "c60b8b8b-d2f8-4e77-a193-d1bd78472eec",
+                "DatabaseAliasName": "ADM_CLINICAL",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/simon-geuthner/DBMaestroEval.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -169,7 +188,43 @@
       "UserData": [
         {
           "UserName": "berkeoz",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "c60b8b8b-d2f8-4e77-a193-d1bd78472eec",
+              "DatabaseAliasName": "ADM_CLINICAL",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "berkeoz",
+                "Password": "OwpWlkWmltynchlAGzUVJhagkl4gbzNshplobMMz7PjSNDNYC+pPI+/W6mO5R+Lj"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "c60b8b8b-d2f8-4e77-a193-d1bd78472eec",
+              "DatabaseAliasName": "ADM_CLINICAL",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1522",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "orclpdb5",
+                    "userName": "ADM_CLINICAL",
+                    "Password": "3ucnQ5oZ2hgfTmTSprTn6Q=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null
