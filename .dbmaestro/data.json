@@ -227,7 +227,26 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "DatabaseId": "c60b8b8b-d2f8-4e77-a193-d1bd78472eec",
+          "DatabaseAliasName": "ADM_CLINICAL",
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "CCR_APAR_PK",
+              "schema": "",
+              "name": "CCR_APPL_PARAMS",
+              "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "CCR_RCOD_PK",
+              "schema": "",
+              "name": "CCR_REF_CODES",
+              "type": "TABLE"
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
