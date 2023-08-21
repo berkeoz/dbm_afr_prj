@@ -243,6 +243,12 @@
               "schema": "",
               "name": "CCR_REF_CODES",
               "type": "TABLE"
+            },
+            {
+              "UniqueIndex": "CCR_PUB_PK",
+              "schema": "",
+              "name": "CCR_PUBLICATIONS",
+              "type": "TABLE"
             }
           ]
         }
